@@ -126,10 +126,10 @@ winning_candidate_summary = (
     f"Winning Vote Count: {winning_count:,}\n"
     f"Winning Percentage: {winning_percentage:.1f}%\n"
     f"-------------------------\n")
-    
+
 print(winning_candidate_summary)
     # Save the winning candidate's name to the text file.
-    txt_file.write(winning_candidate_summary)
+txt_file.write(winning_candidate_summary)
 
 
 
